@@ -1,0 +1,12 @@
+<view class="destination">
+  <block wx:for="{{ sections }}" wx:for-item="section" wx:key="section.index">
+    <view class="title">{{ section.title }}</view>
+    <view class="list">
+      <view class="poi" data-type="{{ item.type }}" data-id="{{ item.id }}" data-name="{{ item.name }}" bindtap="viewPOI" wx:for="{{ section.items }}" wx:for-item="item" wx:key="item.id">
+        <image src="{{ item.cover }}"></image>
+        <view class="mask"></view>
+        <view class="name">{{ item.name }}</view>
+      </view>
+    </view>
+  </block>
+</view>

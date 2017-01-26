@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4abdcc",
+    "navigationBarTitleText": "RentGoGo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#b0b0b0",
+    "selectedColor": "#4abdcc",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/index_normal.png",
+      "selectedIconPath": "images/index_pressed.png",
+      "text": "衣柜"
+    }, {
+      "pagePath": "pages/user/user",
+      "iconPath": "images/explore_normal.png",
+      "selectedIconPath": "images/explore_pressed.png",
+      "text": "我的"
+    }]
+  },
+  "debug": true
+}
